@@ -1,0 +1,6 @@
+dist/
+mode_modules/
+package-lock.json
+.vscode/
+.env
+*.log
