@@ -2,9 +2,13 @@
     "name": "meteo-cli",
     "version": "1.0.0",
     "description": "CLI for getting weather",
-    "main": "index.js",
+    "main": "meteo-cli.js",
+    "bin": {
+        "meteo-cli": "meteo-cli.js"
+    },
+    "type": "module",
     "scripts": {
-        "start": "node index.js",
+        "start": "node meteo-cli.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
@@ -22,5 +26,8 @@
     "bugs": {
         "url": "https://www.devlab.kz/bugreport/",
         "email": "bugreport@devlab.kz"
+    },
+    "dependencies": {
+        "axios": "^1.13.1"
     }
 }
