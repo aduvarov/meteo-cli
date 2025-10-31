@@ -1,6 +1,6 @@
 {
     "name": "meteo-cli",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "CLI for getting weather",
     "main": "meteo-cli.js",
     "bin": {
@@ -8,8 +8,7 @@
     },
     "type": "module",
     "scripts": {
-        "start": "node meteo-cli.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node meteo-cli.js"
     },
     "keywords": [
         "cli",
@@ -21,7 +20,7 @@
     "homepage": "https://www.devlab.kz",
     "repository": {
         "type": "git",
-        "url": "https://git.devlab.kz/"
+        "url": "https://github.com/aduvarov/meteo-cli"
     },
     "bugs": {
         "url": "https://www.devlab.kz/bugreport/",
