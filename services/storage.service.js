@@ -4,6 +4,11 @@ import { writeFile, readFile, stat } from 'fs/promises'
 
 const config = join(homedir(), '.config', 'meteo-cli.json')
 
+const TOKEN_DICTIONARY = {
+    token: 'token',
+    city: 'city',
+}
+
 const saveKeyValue = async (key, value) => {
     let data = {}
     const mode = 0o600
@@ -34,4 +39,4 @@ const isExist = async file => {
     }
 }
 
-export { saveKeyValue, getKeyValue }
+export { saveKeyValue, getKeyValue, TOKEN_DICTIONARY }
